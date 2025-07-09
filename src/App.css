@@ -1,0 +1,46 @@
+#root {
+  margin: 2rem;
+  font-family: Verdana;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.seen-composers {
+  display: flex;
+  flex-direction: column;
+  max-height: 80vh;
+  padding: 1rem;
+  overflow-y: scroll;
+}
+
+.current-composer {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+}
+
+.composer-attributes {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.current-composer-attribute {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.banned-attributes {
+  display: flex;
+  flex-direction: column;
+  max-height: 80vh;
+  padding: 1rem;
+  overflow-y: scroll;
+}
